@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Alineación de texto central */
+}
+h1 {
+    color: #007bff;
+    margin-top: 20px;
+}
+p {
+    font-size: 20px;
+    color: #333;
+    margin-top: 50px;
+    font-style: italic;
+    color: #6c757d;
+}
+.broma-container {
+    max-width: 600px; /* Ancho máximo para el contenedor de la broma */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+}
+.image-container {
+    max-width: 100%; /* Ancho máximo para el contenedor de la imagen */
+    margin-top: 20px; /* Espacio superior entre la broma y la imagen */
+    text-align: center; /* Alineación de la imagen en el centro */
+}
+.image-container img {
+    max-width: 100%; /* Ajusta el tamaño máximo de la imagen al ancho del contenedor */
+    height: auto; /* Mantiene la relación de aspecto */
+    max-height: 300px; /* Establece un ancho máximo adicional para la imagen */
+}
