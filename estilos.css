@@ -14,7 +14,6 @@ p {
     color: #333;
     margin-top: 50px;
     font-style: italic;
-    color: #6c757d;
 }
 .broma-container {
     max-width: 600px; /* Ancho máximo para el contenedor de la broma */
@@ -29,4 +28,12 @@ p {
     max-width: 100%; /* Ajusta el tamaño máximo de la imagen al ancho del contenedor */
     height: auto; /* Mantiene la relación de aspecto */
     max-height: 300px; /* Establece un ancho máximo adicional para la imagen */
+}
+footer {
+    position: fixed; /* Fija el footer */
+    left: 0;
+    bottom: 0;
+    width: 100%; /* Ancho completo */
+    text-align: center; /* Alinea el texto al centro */
+    padding: 10px; /* Espaciado interno */
 }

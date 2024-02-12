@@ -70,5 +70,8 @@
         <div class="image-container">
             <?php echo '<img src="' . $url_gato . '" alt="Imagen de gato">'?>
         </div>
+        <footer>
+        <p>El propietario de esta página no se hace responsable de la poca gracia que tienen los chistes</p>
+    </footer>
     </body>
 </html>
